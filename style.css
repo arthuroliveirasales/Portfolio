@@ -1,67 +1,50 @@
-body {
-font-family: Arial, sans-serif;
-background-color: #eef3ff;
-color: #1f2937;
-max-width: 900px;
-margin: 0 auto;
-padding: 20px;
-line-height: 1.7;
+body{
+    display: flex;
 }
-
-header {
-text-align: center;
-padding: 25px;
-margin-bottom: 35px;
-border-left: 5px solid #eef3ff;
+.backGroundImg{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
-
-h1 {
-color: #4169e1;
-margin-bottom: 5px;
+.langButtonContainer{
+    z-index: 10;
+    display: flex;
+    height: 20px;
+    margin-left: auto;
 }
-
-header p {
-color: #4b5563;
+.langButtonContainer button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
 }
-
-h2 {
-color: #2c4ecf;
-margin-top: 35px;
+.langButtonContainer button:hover{
+    opacity: 0.5;
+    margin-top: 2px;
 }
-
-h3 {
-color: #374151;
+.langButtonContainer button:active{
+    margin-top: 4px;
 }
-
-section {
-margin-bottom: 30px;
+.portfolioCenter{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33%;
+    margin-top: 13%;
+    height: 280px;
+    width: 450px;
+    border: none;
+    justify-content: center;
+    z-index: 10;
+    background-color: transparent;
 }
-
-a {
-color: #4169e1;
-text-decoration: none;
+.nameAndYear{
+    display: flex;
+    gap: 170px;
 }
-
-a:hover {
-text-decoration: underline;
+h1{
+    font-size: 100px;
+    height: 20px;
 }
-
-ul {
-padding-left: 20px;
-}
-
-li {
-margin-bottom: 8px;
-}
-
-hr {
-border: none;
-border-top: 2px solid #c7d2fe;
-margin: 30px 0;
-}
-
-footer {
-text-align: center;
-color: #6b7280;
-margin-top: 40px;
+.year{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
