@@ -1,16 +1,57 @@
 body{
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 .backGroundImg{
     position: absolute;
     z-index: 1;
     width: 100%;
 }
-.langButtonContainer{
+.navBarLinks{
+    display: flex;
+    position: sticky;
+    top: 8px;
     z-index: 10;
+    height: 20px;
+    width: 275px;
+    border: none;
+    margin-left: 560px;
+}
+.navBarLinks button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 13px;
+}
+.navBarLinks button:hover{
+    font-size: 13.5px;
+}
+.navBarLinks button:active{
+    opacity: 0.8;
+}
+.aboutTitle{
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+
+    z-index: 10;
+}
+.langButtonContainer{
+    position: sticky;
+    z-index: 11;
     display: flex;
     height: 20px;
-    margin-left: auto;
+    margin-left: 1300px;
+    top: 8px;
+    background-color: rgba(0, 255, 0, 0.062);
+    border-radius: 10px;
+}
+.langButtonContainer:hover{
+    background-color: rgba(0, 255, 0, 0.014);;
 }
 .langButtonContainer button{
     border: none;
@@ -25,17 +66,14 @@ body{
     margin-top: 4px;
 }
 .portfolioCenter{
-    position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 33%;
-    margin-top: 13%;
-    height: 280px;
-    width: 450px;
+    height: 775px;
+    width: 100%;
     border: none;
-    justify-content: center;
     z-index: 10;
     background-color: transparent;
+    align-items: center; 
 }
 .nameAndYear{
     display: flex;
@@ -44,6 +82,9 @@ body{
 h1{
     font-size: 100px;
     height: 20px;
+    margin-top: 300px;
+
+    transition: font-size 0.3s ease;
 }
 .year{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
