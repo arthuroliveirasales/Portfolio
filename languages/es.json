@@ -1,3 +1,9 @@
 {
-    "hero.title": "Portafolio."
+    "hero.title": "Portafolio.",
+
+    "navBar.homeButton": "Inicio",
+    "navBar.aboutButton": "Sobre mí", 
+    "navBar.skillsButton": "Habilidades",
+    "navBar.projectsButton": "Proyectos", 
+    "navBar.contactButton": "Contacto"
 }

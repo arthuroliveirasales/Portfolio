@@ -10,15 +10,25 @@ body{
     z-index: 1;
     width: 100%;
 }
+.line{
+    height: 30px;
+    width: 300px;
+    color: black;
+    z-index: 10;
+}
 .navBarLinks{
     display: flex;
     position: sticky;
     top: 8px;
-    z-index: 10;
+    z-index: 11;
     height: 20px;
-    width: 275px;
+    width: 335px;
     border: none;
     margin-left: 560px;
+    gap: 4px;
+    background-color: rgba(243, 243, 243, 0.856);
+    border-radius: 10px;
+    justify-content: center;
 }
 .navBarLinks button{
     border: none;
@@ -44,16 +54,15 @@ body{
     position: sticky;
     z-index: 11;
     display: flex;
-    height: 20px;
+    top: 10px;
+    height: 10px;
     margin-left: 1300px;
-    top: 8px;
-    background-color: rgba(0, 255, 0, 0.062);
-    border-radius: 10px;
 }
 .langButtonContainer:hover{
     background-color: rgba(0, 255, 0, 0.014);;
 }
 .langButtonContainer button{
+    position: sticky;
     border: none;
     background-color: transparent;
     font-weight: bold;
@@ -83,8 +92,6 @@ h1{
     font-size: 100px;
     height: 20px;
     margin-top: 300px;
-
-    transition: font-size 0.3s ease;
 }
 .year{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
