@@ -1,8 +1,12 @@
 {
     "hero.title": "Portafolio.",
+    "hero.position": "Desarrollador de Software",
     "navBar.homeButton": "Inicio",
     "navBar.aboutButton": "Sobre mí", 
     "navBar.skillsButton": "Habilidades",
     "navBar.projectsButton": "Proyectos", 
-    "navBar.contactButton": "Contacto"
+    "navBar.contactButton": "Contacto",
+    "about.title": "¡Hola! Soy Arthur Oliveira Sales, un desarrollador de software.",
+    "about.paragraphy1": "Soy <b>estudiante de secundaria</b> y <b>desarrollador de software en formación</b>, apasionado por convertir ideas en <b>interfaces funcionales e intuitivas</b>. Actualmente estudio <b>HTML, CSS, JavaScript y Git</b>, desarrollando proyectos que fortalecen mi <b>lógica de programación</b> y mi capacidad para <b>resolver problemas</b>.",
+    "about.paragraphy2": "Como <b>autodidacta</b> y <b>curioso</b>, disfruto comprendiendo cómo funcionan las tecnologías detrás de cada solución y mejorando constantemente con cada proyecto. Mi objetivo es conseguir una <b>oportunidad de prácticas</b>, crecer como <b>desarrollador de software</b> y construir una carrera enfocada en el <b>trabajo remoto</b>."
 }

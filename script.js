@@ -8,7 +8,7 @@ async function changeLanguage(language) {
 
         const key = element.dataset.lang;
 
-        element.textContent = texts[key];
+        element.innerHTML = texts[key];
     });
 }
 
