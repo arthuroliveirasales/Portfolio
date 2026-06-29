@@ -8,38 +8,40 @@
 </head>
 <body>
 
-    <img src="assets/backGround.jfif" class="backGroundImg">
-    
-    <div class="navBarLinks">
-      <button class="homeButton" data-lang="navBar.homeButton">Home</button>
-      <button class="aboutButton" data-lang="navBar.aboutButton">About</button>
-      <button class="skillsButton" data-lang="navBar.skillsButton">Skills</button>
-      <button class="projectsButton" data-lang="navBar.projectsButton">Projects</button>
-      <button class="contactButton" data-lang="navBar.contactButton">Contact</button>
-    </div>
+<section id="home">
 
-    <div class="langButtonContainer">
-      <button onclick="changeLanguage('en')">EN /</button>
-      <button onclick="changeLanguage('pt')">PT /</button>
-      <button onclick="changeLanguage('es')">ES</button>
-    </div>
-
-    <button type="button" class="portfolioCenter">
-    <h1 data-lang="hero.title">Portfolio.</h1>
-      <div class="nameAndYear">
-        <h2>Arthur Oliveira Sales</h2>
-        <h2 class="year">2026</h2>
+  <div class="topButtons">
+      <div class="navBarLinks">
+        <a class="homeButton" data-lang="navBar.homeButton" href="#home">Home</a>
+        <a class="aboutButton" data-lang="navBar.aboutButton" href="#about">About</a>
+        <a class="skillsButton" data-lang="navBar.skillsButton" href="#skills">Skills</a>
+        <a class="projectsButton" data-lang="navBar.projectsButton" href="#projects">Projects</a>
+        <a class="contactButton" data-lang="navBar.contactButton" href="#contact">Contact</a>
       </div>
-    </button>
 
-   <div class="line"></div>
+      <div class="langButtonContainer">
+        <button onclick="changeLanguage('en')">EN /</button>
+        <button onclick="changeLanguage('pt')">PT /</button>
+        <button onclick="changeLanguage('es')">ES</button>
+      </div>
+  </div>
 
+      <div class="portfolioCenter">
+        <h2 class="position">Software Developer</h2>
+        <h1 data-lang="hero.title">Portfolio.</h1>
+          <div class="nameAndYear">
+            <h2 class="myName">Arthur Oliveira Sales</h2>
+            <h2 class="year">2026</h2>
+          </div>
+      </div>
 
+</section>
+<section id="about">
 
+<hr>
 
+</section>
 
-
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
