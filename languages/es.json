@@ -1,12 +1,16 @@
 {
-    "hero.title": "Portafolio.",
-    "hero.position": "Desarrollador de Software",
-    "navBar.homeButton": "Inicio",
-    "navBar.aboutButton": "Sobre mí", 
-    "navBar.skillsButton": "Habilidades",
-    "navBar.projectsButton": "Proyectos", 
-    "navBar.contactButton": "Contacto",
-    "about.title": "¡Hola! Soy Arthur Oliveira Sales, un desarrollador de software.",
-    "about.paragraphy1": "Soy <b>estudiante de secundaria</b> y <b>desarrollador de software en formación</b>, apasionado por convertir ideas en <b>interfaces funcionales e intuitivas</b>. Actualmente estudio <b>HTML, CSS, JavaScript y Git</b>, desarrollando proyectos que fortalecen mi <b>lógica de programación</b> y mi capacidad para <b>resolver problemas</b>.",
-    "about.paragraphy2": "Como <b>autodidacta</b> y <b>curioso</b>, disfruto comprendiendo cómo funcionan las tecnologías detrás de cada solución y mejorando constantemente con cada proyecto. Mi objetivo es conseguir una <b>oportunidad de prácticas</b>, crecer como <b>desarrollador de software</b> y construir una carrera enfocada en el <b>trabajo remoto</b>."
+  "hero.title": "Portafolio.",
+  "hero.position": "Desarrollador de Software",
+  "navBar.homeButton": "Inicio",
+  "navBar.aboutButton": "Sobre mí",
+  "navBar.skillsButton": "Habilidades",
+  "navBar.projectsButton": "Proyectos",
+  "navBar.contactButton": "Contacto",
+  "about.title": "<span id=\"hello\">¡Hola!</span><div id=\"line1And2\">Soy Arthur Oliveira Sales<br /><span id=\"softwareDeveloper\">Desarrollador de Software.</span></div>",
+  "about.paragraphy1": "Soy <b>estudiante de secundaria</b> y <b>desarrollador de software en formación</b>, apasionado por convertir ideas en <b>interfaces funcionales e intuitivas</b>. Actualmente estudio <b>HTML, CSS, JavaScript y Git</b>, desarrollando proyectos que fortalecen mi <b>lógica de programación</b> y mi capacidad para <b>resolver problemas</b>.",
+  "about.paragraphy2": "Como <b>autodidacta</b> y <b>curioso</b>, disfruto comprendiendo cómo funcionan las tecnologías detrás de cada solución y mejorando constantemente con cada proyecto. Mi objetivo es conseguir una <b>oportunidad de prácticas</b>, crecer como <b>desarrollador de software</b> y construir una carrera enfocada en el <b>trabajo remoto</b>.",
+  "about.educationTitle": "Formación Académica",
+  "about.paragraphy3": "Técnico en Informática Integrado a la Educación Secundaria<br />Institución / Escuela: Instituto Federal de Educación, Ciencia y Tecnología Baiano – Campus Santa Inés<br />Año de Finalización: 2027",
+  "about.certificationsTitle": "Cursos Complementarios y Certificacion",
+  "about.paragraphy4": "Certificación en Desarrollo con JavaScript<br>Institución: Instituto Federal de Educación, Ciencia y Tecnología Baiano – Campus Santa Inés<br>Carga horaria: 8 horas | Año: 2026"
 }

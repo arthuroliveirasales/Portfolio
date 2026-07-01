@@ -1,166 +1,196 @@
-body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 
-    background-color: white;
+  background-color: rgb(231, 231, 231);
 }
 /*about section*/
 
-#about{
-    height: 771px;
+#about {
+  height: 100vh;
+  display: flex;
+  gap: 220px;
+  width: 100vh;
 }
-.autobiography p{
-    margin-top: 10px;
-    margin-left: 50px;
-    gap: 0;
-    font-size: 15.65px;
-    width: 400px;
-    font-family: "Inter", sans-serif;
-    color: rgb(26, 26, 26);
-}
-.autobiographyTitle{
-    font-size: 45px;
-    width: 568px;
-    height: fit-content;
-    line-height: 1;
-    margin-left: 50px;
-    text-align: left;
-}
-.aboutImg{
-    margin-left: 50px;
-    margin-top: 15px;
 
-    background-color: transparent;
+#selfImg {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 16px;
+  border-color: 1px solid black;
+}
+#educationAndExperience h1 {
+  font-size: 35px;
+  margin-top: 100px;
+  height: fit-content;
+  width: 468px;
+  line-height: 1;
+}
+#educationAndExperience p {
+  width: 400px;
+}
+#hello {
+  font-size: 80px;
+}
+#softwareDeveloper {
+  color: grey;
+}
+#autobiographyTitleContainer {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 50px;
+}
+.autobiography p {
+  margin-top: 10px;
+  margin-left: 50px;
+  gap: 0;
+  font-size: 15.65px;
+  width: 400px;
+  font-family: "Inter", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.autobiographyTitle {
+  display: flex;
+  font-size: 29px;
+  width: 608px;
+  height: fit-content;
+  line-height: 1;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+#line1And2 {
+  margin-top: 14px;
 }
 
 /**/
 
 hr {
   margin-top: 0;
-  border: none;
-  height: 10px;
+  height: 5px;
   background-color: #000000;
 }
 
-#home{
-    display: flex;
-    height: 767px;
-    border: none;
-    justify-content: center;
+#home {
+  display: flex;
 
-    background-image: url("assets/backGround.jfif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-.topButtons{
-    display: flex;
-    top: 5px;
-    height: 0;
-    position: sticky;
-    width: 100%;
-}
-.navBarLinks{
-    opacity: 0.5;
-    display: flex;
-    height: 20px;
-    width: fit-content;
-    padding-inline: 10px;
-    border: none;
-    gap: 8px;
+  border: none;
+  justify-content: center;
 
-    background-color: rgba(243, 243, 243, 0.658);
-    border-radius: 5px;
+  background-image: url("assets/backGround.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100;
+}
+.topButtons {
+  display: flex;
+  top: 5px;
+  height: 0;
+  position: sticky;
+  width: 100%;
+}
+.navBarLinks {
+  opacity: 0.5;
+  display: flex;
+  height: 20px;
+  width: fit-content;
+  padding-inline: 10px;
+  border: none;
+  gap: 8px;
 
-    margin-left: 40%;
-    justify-content: center;
-}
-.navBarLinks:hover{
-    opacity: 1;
-}
-.navBarLinks a{
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  background-color: rgba(243, 243, 243, 0.658);
+  border-radius: 5px;
 
-    border: none;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 15px;
+  margin-left: auto;
+  justify-content: center;
 }
-.navBarLinks a:hover{
-    margin-top: 2px;
-    color: rgb(48, 48, 48);
+.navBarLinks:hover {
+  opacity: 1;
 }
-.navBarLinks a:active{
-    opacity: 0.8;
-}
-.langButtonContainer{
-    opacity: 0.5;
-    margin-left: auto;
-    margin-right: 10px;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.733);
-    height: 23px;
-}
-.langButtonContainer:hover{
-    opacity: 1;
-}
-.langButtonContainer button{
-    border: none;
-    background-color: transparent;
-    font-weight: bold;
-}
-.langButtonContainer button:hover{
-    opacity: 0.5;
-    margin-top: 2px;
-}
-.langButtonContainer button:active{
-    margin-top: 4px;
-}
-.portfolioCenter{
-    display: flex;
-    flex-direction: column;
-    height: 170px;
-    width: 470px;
-    border: none;
-    background-color: transparent;
-    align-items: center; 
-    justify-content: center;
+.navBarLinks a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 
-    margin-top: 265px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
 }
-.nameAndYear{
-    display: flex;
-    gap: 170px;
+.navBarLinks a:hover {
+  margin-top: 2px;
+  color: rgb(48, 48, 48);
 }
-.position{
-    margin-right: 30px;
-    font-family: monospace;
-    font-size: 20px;
-    width: 400px;
+.navBarLinks a:active {
+  opacity: 0.8;
 }
-h1{
-    font-size: 100px;
-    height: 72px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 0.65;
-    margin-right: auto;
+.langButtonContainer {
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: 10px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.733);
+  height: 23px;
+  border-radius: 5px;
 }
-.myName{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    height: 20px;
-    margin-top: 2px;
-    margin-left: 10px;
+.langButtonContainer:hover {
+  opacity: 1;
 }
-.year{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0px;
+.langButtonContainer button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
 }
-h1, h2{
-    margin: 0;  
+.langButtonContainer button:hover {
+  opacity: 0.5;
+  margin-top: 2px;
+}
+.langButtonContainer button:active {
+  margin-top: 4px;
+}
+.portfolioCenter {
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 470px;
+  border: none;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 265px;
+}
+.nameAndYear {
+  display: flex;
+  gap: 170px;
+}
+.position {
+  margin-right: 30px;
+  font-family: monospace;
+  font-size: 20px;
+  width: 400px;
+}
+h1 {
+  font-size: 100px;
+  height: 72px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 0.65;
+  margin-right: auto;
+}
+.myName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  height: 20px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.year {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+}
+h1,
+h2 {
+  margin: 0;
 }

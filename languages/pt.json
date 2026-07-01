@@ -1,12 +1,16 @@
 {
-    "hero.title": "Portfólio.",
-    "hero.position": "Desenvolvedor de Software",
-    "navBar.homeButton": "Inicio",
-    "navBar.aboutButton": "Sobre",
-    "navBar.skillsButton": "Habilidades",
-    "navBar.projectsButton": "Projetos",
-    "navBar.contactButton": "Contanto",
-    "about.title": "Olá! Eu sou Arthur Oliveira Sales, um desenvolvedor de software.",
-    "about.paragraphy1": "Sou <b>estudante do ensino médio</b> e <b>desenvolvedor de software em formação</b>, apaixonado por transformar ideias em <b>interfaces funcionais e intuitivas</b>. Atualmente estudo <b>HTML, CSS, JavaScript e Git</b>, desenvolvendo projetos que fortalecem minha <b>lógica de programação</b> e minha capacidade de <b>resolver problemas</b>.",
-    "about.paragraphy2": "Como <b>autodidata</b> e <b>curioso</b>, gosto de compreender como as tecnologias funcionam por trás das soluções, buscando evoluir constantemente a cada projeto. Meu objetivo é conquistar uma <b>oportunidade de estágio</b>, crescer profissionalmente e construir uma carreira com foco em <b>desenvolvimento de software</b> e <b>trabalho remoto</b>."
+  "hero.title": "Portfólio.",
+  "hero.position": "Desenvolvedor de Software",
+  "navBar.homeButton": "Inicio",
+  "navBar.aboutButton": "Sobre",
+  "navBar.skillsButton": "Habilidades",
+  "navBar.projectsButton": "Projetos",
+  "navBar.contactButton": "Contanto",
+  "about.title": "<span id=\"hello\">Olá!</span><div id=\"line1And2\">Eu sou Arthur Oliveira Sales<br /><span id=\"softwareDeveloper\">Desenvolvedor de Software.</span></div>",
+  "about.paragraphy1": "Sou <b>estudante do ensino médio</b> e <b>desenvolvedor de software em formação</b>, apaixonado por transformar ideias em <b>interfaces funcionais e intuitivas</b>. Atualmente estudo <b>HTML, CSS, JavaScript e Git</b>, desenvolvendo projetos que fortalecem minha <b>lógica de programação</b> e minha capacidade de <b>resolver problemas</b>.",
+  "about.paragraphy2": "Como <b>autodidata</b> e <b>curioso</b>, gosto de compreender como as tecnologias funcionam por trás das soluções, buscando evoluir constantemente a cada projeto. Meu objetivo é conquistar uma <b>oportunidade de estágio</b>, crescer profissionalmente e construir uma carreira com foco em <b>desenvolvimento de software</b> e <b>trabalho remoto</b>.",
+  "about.educationTitle": "Formação Acadêmica",
+  "about.paragraphy3": "Técnico em Informática Integrado ao Ensino Médio<br/>Instituto: Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus Santa Inês<br/>Ano de Conclusão: 2027",
+  "about.certificationsTitle": "Cursos Complementares e Certificações",
+  "about.paragraphy4": "Certificação em Desenvolvimento JavaScript<br>Instituição: Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus Santa Inês<br>Carga Horária: 8 horas | Ano: 2026"
 }

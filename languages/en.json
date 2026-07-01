@@ -1,12 +1,16 @@
 {
-    "hero.title": "Portfolio.",
-    "hero.position": "Software Developer",   
-    "navBar.homeButton": "Home",
-    "navBar.aboutButton": "About",
-    "navBar.skillsButton": "Skills",
-    "navBar.projectsButton": "Projects",
-    "navBar.contactButton": "Contact",
-    "about.title": "Hello! I'm Arthur Oliveira Sales, a Software Developer.",
-    "about.paragraphy1": "I am a <b>high school student</b> and an <b>aspiring software developer</b> passionate about turning ideas into <b>functional and intuitive interfaces</b>. I am currently studying <b>HTML, CSS, JavaScript, and Git</b> while building projects that strengthen my <b>programming logic</b> and <b>problem-solving skills</b>.",
-    "about.paragraphy2": "As a <b>self-taught</b> and <b>curious</b> learner, I enjoy understanding how technologies work behind the scenes and continuously improving with every project. My goal is to earn an <b>internship</b>, grow as a <b>software developer</b>, and build a career focused on <b>remote work</b>."
+  "hero.title": "Portfolio.",
+  "hero.position": "Software Developer",
+  "navBar.homeButton": "Home",
+  "navBar.aboutButton": "About",
+  "navBar.skillsButton": "Skills",
+  "navBar.projectsButton": "Projects",
+  "navBar.contactButton": "Contact",
+  "about.title": "<span id=\"hello\">Hello!</span><div id=\"line1And2\">I'm Arthur Oliveira Sales<br /><span id=\"softwareDeveloper\">Software Developer.</span></div>",
+  "about.paragraphy1": "I am a <b>high school student</b> and an <b>aspiring software developer</b> passionate about turning ideas into <b>functional and intuitive interfaces</b>. I am currently studying <b>HTML, CSS, JavaScript, and Git</b> while building projects that strengthen my <b>programming logic</b> and <b>problem-solving skills</b>.",
+  "about.paragraphy2": "As a <b>self-taught</b> and <b>curious</b> learner, I enjoy understanding how technologies work behind the scenes and continuously improving with every project. My goal is to earn an <b>internship</b>, grow as a <b>software developer</b>, and build a career focused on <b>remote work</b>.",
+  "about.educationTitle": "Academic Education",
+  "about.paragraphy3": "Computer Technician Integrated with High School<br />Institution: Federal Institute of Education, Science and Technology Baiano – Santa Inês Campus<br />Expected Graduation Year: 2027",
+  "about.certificationsTitle": "Additional Courses and Certifications",
+  "about.paragraphy4": "JavaScript Development Certification<br>Institution: Federal Institute of Education, Science and Technology Baiano – Santa Inês Campus<br>Workload: 8 hours | Year: 2026"
 }
