@@ -47,6 +47,41 @@
       </div>
     </div>
 
+    <div id="menu">
+      <button onclick="menuView()" id="menuBtn">☰</button>
+      <div class="menuContainer">
+        <div class="navBarLinks">
+          <a class="homeButton" data-lang="navBar.homeButton" href="#home"
+            >Home</a
+          >
+          <a class="aboutButton" data-lang="navBar.aboutButton" href="#about"
+            >About</a
+          >
+          <a class="skillsButton" data-lang="navBar.skillsButton" href="#skills"
+            >Skills</a
+          >
+          <a
+            class="projectsButton"
+            data-lang="navBar.projectsButton"
+            href="#projects"
+            >Projects</a
+          >
+          <a
+            class="contactButton"
+            data-lang="navBar.contactButton"
+            href="#contact"
+            >Contact</a
+          >
+        </div>
+
+        <div class="langButtonContainer">
+          <button onclick="changeLanguage('en')">EN /</button>
+          <button onclick="changeLanguage('pt')">PT /</button>
+          <button onclick="changeLanguage('es')">ES</button>
+        </div>
+      </div>
+    </div>
+
     <section id="home">
       <div class="portfolioCenter">
         <h2 class="position" data-lang="hero.position">Software Developer</h2>

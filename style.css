@@ -1,14 +1,22 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
   overflow-x: hidden;
   background-color: rgb(231, 231, 231);
 }
-/*about section*/
 
+#menuBtn {
+  display: none;
+}
+.menuContainer {
+  display: none;
+}
 #about {
   min-height: 100vh;
   display: flex;
@@ -120,6 +128,9 @@ hr {
   height: 0;
   position: sticky;
   width: 100%;
+
+  animation: topButtonsStart 4s ease;
+  animation-fill-mode: forwards;
 }
 .navBarLinks {
   opacity: 0.8;
@@ -158,13 +169,13 @@ hr {
   opacity: 0.8;
 }
 .langButtonContainer {
-  opacity: 0.5;
   margin-left: auto;
   margin-right: 10px;
   display: flex;
   background-color: rgba(255, 255, 255, 0.733);
   height: 23px;
   border-radius: 5px;
+  color: #121212;
 }
 .langButtonContainer:hover {
   opacity: 1;
@@ -189,10 +200,10 @@ hr {
   width: min(100%, 470px);
   border: none;
   background-color: transparent;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 
-  margin-top: 265px;
+  animation: titleStart 2s ease;
+  animation-fill-mode: forwards;
 }
 .nameAndYear {
   display: flex;
@@ -226,7 +237,22 @@ h1,
 h2 {
   margin: 0;
 }
-
+@keyframes titleStart {
+  from {
+    scale: 0.9;
+  }
+  to {
+    scale: 1;
+  }
+}
+@keyframes topButtonsStart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1056px) {
   /*about section*/
 
@@ -469,5 +495,83 @@ h2 {
 
     transform: scale(0.8);
     margin-top: 44%;
+  }
+
+  .topButtons {
+    display: none;
+  }
+
+  /* Menu btn */
+
+  #menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #menuBtn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.3;
+  }
+
+  .menuContainer {
+    display: none;
+  }
+  .menuContainer.visible {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+
+    background-color: rgb(14, 14, 14);
+    height: 100vh;
+    border-radius: 5px;
+    border-top: 5px solid gray;
+    width: 30vh;
+  }
+  .langButtonContainer {
+    margin: auto;
+    margin-bottom: 3.4rem;
+    width: 6rem;
+    justify-content: center;
+    transform: scale(1.2);
+  }
+  .navBarLinks {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin: 0;
+    height: 70%;
+    background-color: transparent;
+    gap: 1rem;
+    transform: scale(1.2);
+  }
+  .navBarLinks a {
+    color: white;
+    border-bottom: 1px solid gray;
+  }
+  /*  */
+  /*about section*/
+}
+
+@media screen and (max-width: 320px) {
+  .portfolioCenter > * {
+    transform: scale(0.8);
+  }
+  #about > * {
+    transform: scale(0.9);
+  }
+  #selfImgContainer {
+    transform: scale(1.03);
   }
 }
