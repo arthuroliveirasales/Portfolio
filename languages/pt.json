@@ -13,5 +13,10 @@
   "about.paragraphy3": "Técnico em Informática Integrado ao Ensino Médio<br/>Instituto: Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus Santa Inês<br/>Ano de Conclusão: 2027",
   "about.certificationsTitle": "Cursos Complementares e Certificações",
   "about.paragraphy4": "Certificação em Desenvolvimento JavaScript<br>Instituição: Instituto Federal de Educação, Ciência e Tecnologia Baiano – Campus Santa Inês<br>Carga Horária: 8 horas | Ano: 2026",
-  "about.imgTitle": "Aprendendo hoje. Construindo o amanhã."
+  "about.imgTitle": "Aprendendo hoje. Construindo o amanhã.",
+  "skills.title": "Habilidades",
+  "skills.description": "Estas são as tecnologias e ferramentas que utilizo para desenvolver aplicações web modernas. Estou sempre aprendendo, experimentando e ampliando minhas habilidades por meio de projetos práticos.",
+  "skills.coreTechnologies": "Tecnologias Principais",
+  "skills.tools": "Ferramentas",
+  "skills.currentlyLearning": "Aprendendo Atualmente"
 }

@@ -13,5 +13,10 @@
   "about.paragraphy3": "Técnico en Informática Integrado a la Educación Secundaria<br />Institución / Escuela: Instituto Federal de Educación, Ciencia y Tecnología Baiano – Campus Santa Inés<br />Año de Finalización: 2027",
   "about.certificationsTitle": "Cursos Complementarios y Certificacion",
   "about.paragraphy4": "Certificación en Desarrollo con JavaScript<br>Institución: Instituto Federal de Educación, Ciencia y Tecnología Baiano – Campus Santa Inés<br>Carga horaria: 8 horas | Año: 2026",
-  "about.imgTitle": "Aprendiendo hoy. Construyendo el mañana."
+  "about.imgTitle": "Aprendiendo hoy. Construyendo el mañana.",
+  "skills.title": "Habilidades",
+  "skills.description": "Estas son las tecnologías y herramientas que utilizo para desarrollar aplicaciones web modernas. Siempre estoy aprendiendo, experimentando y ampliando mis habilidades mediante proyectos prácticos.",
+  "skills.coreTechnologies": "Tecnologías Principales",
+  "skills.tools": "Herramientas",
+  "skills.currentlyLearning": "Aprendiendo Actualmente"
 }
