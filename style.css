@@ -13,37 +13,39 @@ body {
   min-height: 100vh;
   display: flex;
   width: 100%;
+  gap: 11rem;
 }
 #about > * {
   min-width: 0;
 }
 #selfImgContainer {
   display: inline-flex;
-  align-content: center;
   background-color: #121212;
 
-  width: min(100%, 650px);
-  margin-top: 20px;
-  margin-left: 50px;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-left: 3rem;
   border-radius: 16px;
+}
+#selfImgContainer div {
+  width: 40%;
 }
 #selfImgContainer h1 {
   font-weight: 20px;
   text-align: left;
-  font-size: 60px;
+  font-size: 3.8rem;
   color: rgb(255, 255, 255);
-  height: 390px;
-  width: min(100%, 330px);
+  height: fit-content;
+
   line-height: 1;
   font-family: "Space Grotesk", sans-serif;
-  margin-top: 5px;
 }
 #selfImg {
   border-radius: 16px;
   border: 5px solid black;
 }
 #educationAndExperience {
-  max-width: 400px;
+  max-width: 20.4rem;
   width: 100%;
 }
 #educationAndExperience h1 {
@@ -64,17 +66,16 @@ body {
   color: grey;
 }
 .autobiography {
-  width: min(100%, 900px);
+  width: min(100%, 700px);
 }
 #autobiographyTitleContainer {
-  margin-top: 10px;
+  margin-top: 1rem;
   display: flex;
-  margin-left: 50px;
+  margin-left: 3rem;
 }
 .autobiography p {
   margin-top: 10px;
-  margin-left: 50px;
-  gap: 0;
+  margin-left: 3rem;
   font-size: 15.65px;
   width: min(100%, 400px);
   font-family: "Inter", sans-serif;
@@ -90,7 +91,7 @@ body {
   color: rgb(0, 0, 0);
 }
 #line1And2 {
-  margin-top: 14px;
+  align-content: center;
 }
 
 /**/
@@ -182,6 +183,7 @@ hr {
 }
 .portfolioCenter {
   display: flex;
+  align-items: center;
   flex-direction: column;
   height: 170px;
   width: min(100%, 470px);
@@ -200,7 +202,7 @@ hr {
   margin-right: 30px;
   font-family: monospace;
   font-size: 20px;
-  width: 400px;
+  width: min(100%, 400px);
 }
 h1 {
   font-size: 100px;
@@ -223,4 +225,249 @@ h1 {
 h1,
 h2 {
   margin: 0;
+}
+
+@media screen and (max-width: 1056px) {
+  /*about section*/
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  #selfImgContainer {
+    display: inline-flex;
+    background-color: #121212;
+
+    margin-left: 0;
+    margin-top: 2rem;
+    border-radius: 16px;
+  }
+  #selfImgContainer div {
+    width: 40%;
+  }
+  #selfImgContainer h1 {
+    font-weight: 20px;
+    text-align: left;
+    font-size: 3.8rem;
+    color: rgb(255, 255, 255);
+    height: fit-content;
+
+    line-height: 1;
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  #educationAndExperience h1 {
+    font-size: 35px;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    line-height: 1;
+  }
+  #educationAndExperience p {
+    width: min(100%, 400px);
+    text-align: center;
+  }
+  .autobiography {
+    width: min(100%, 650px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #autobiographyTitleContainer {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 0;
+  }
+  .autobiography p {
+    text-align: center;
+
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 15.65px;
+    width: min(100%, 400px);
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .autobiographyTitle {
+    display: flex;
+    font-size: 29px;
+    width: min(100%, 608px);
+    height: fit-content;
+    line-height: 1;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+}
+@media screen and (max-width: 781px) {
+  /*about section*/
+
+  #selfImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: min(100%, 430px);
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  #selfImgContainer div {
+    width: 40%;
+  }
+  #selfImgContainer h1 {
+    font-weight: 20px;
+    font-size: 3.8rem;
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    text-align: center;
+
+    width: 300px;
+    line-height: 1;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  #selfImgContainer div {
+    width: 300px;
+  }
+  #selfImg {
+    width: 100%;
+  }
+  #educationAndExperience {
+    max-width: 21rem;
+    width: 100%;
+  }
+  #educationAndExperience h1 {
+    font-size: 35px;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    line-height: 1;
+  }
+  #educationAndExperience p {
+    width: min(100%, 400px);
+    text-align: center;
+  }
+  #autobiographyTitleContainer {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 0;
+  }
+  .autobiography p {
+    text-align: center;
+
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 15.65px;
+    width: min(100%, 400px);
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .autobiographyTitle {
+    display: flex;
+    font-size: 29px;
+    width: min(100%, 608px);
+    height: fit-content;
+    line-height: 1;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+  .portfolioCenter {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: min(100%, 470px);
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 34%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #selfImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: min(100%, 430px);
+    margin-left: 0;
+    margin-top: 2rem;
+
+    transform: scale(0.8);
+  }
+  #selfImgContainer div {
+    width: 40%;
+  }
+  #selfImgContainer h1 {
+    font-weight: 20px;
+    font-size: 3.8rem;
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    text-align: center;
+
+    width: 300px;
+    line-height: 1;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  #selfImgContainer div {
+    width: min(100%, 356px);
+  }
+  #selfImg {
+    width: 100%;
+  }
+  #educationAndExperience {
+    max-width: 21rem;
+    width: 100%;
+  }
+  #educationAndExperience h1 {
+    font-size: 35px;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    line-height: 1;
+    transform: scale(0.9);
+  }
+  #educationAndExperience p {
+    width: min(100%, 400px);
+    text-align: center;
+  }
+  #autobiographyTitleContainer {
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 0;
+    transform: scale(0.9);
+  }
+  .autobiography p {
+    text-align: center;
+
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 15.65px;
+    width: min(100%, 400px);
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .autobiographyTitle {
+    display: flex;
+    font-size: 29px;
+    width: min(100%, 608px);
+    height: fit-content;
+    line-height: 1;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+  .portfolioCenter {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: min(100%, 470px);
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+    transform: scale(0.8);
+    margin-top: 44%;
+  }
 }
