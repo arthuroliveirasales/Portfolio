@@ -18,5 +18,10 @@
   "skills.description": "These are the technologies and tools I use to build modern web applications. I'm always learning, experimenting, and expanding my skill set through hands-on projects.",
   "skills.coreTechnologies": "Core Technologies",
   "skills.tools": "Tools",
-  "skills.currentlyLearning": "Currently Learning"
+  "skills.currentlyLearning": "Currently Learning",
+  "projects.title": "Projects",
+  "projects.tac.title": "Task Manager (TAC)",
+  "projects.tac.description": "A web-based task manager built with JavaScript. It allows users to add, remove, and organize tasks while using localStorage to persist data. Focused on DOM manipulation and state management.",
+  "projects.todo.title": "To-Do List App",
+  "projects.todo.description": "A simple task tracking application built to practice JavaScript fundamentals. It supports dynamically adding and removing tasks."
 }

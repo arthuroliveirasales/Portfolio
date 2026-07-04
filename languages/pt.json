@@ -18,5 +18,10 @@
   "skills.description": "Estas são as tecnologias e ferramentas que utilizo para desenvolver aplicações web modernas. Estou sempre aprendendo, experimentando e ampliando minhas habilidades por meio de projetos práticos.",
   "skills.coreTechnologies": "Tecnologias Principais",
   "skills.tools": "Ferramentas",
-  "skills.currentlyLearning": "Aprendendo Atualmente"
+  "skills.currentlyLearning": "Aprendendo Atualmente",
+  "projects.title": "Projetos",
+  "projects.tac.title": "Gerenciador de Tarefas (TAC)",
+  "projects.tac.description": "Um gerenciador de tarefas desenvolvido para a web com JavaScript. Permite adicionar, remover e organizar tarefas, utilizando o localStorage para persistir os dados. Focado em manipulação do DOM e gerenciamento de estado.",
+  "projects.todo.title": "Aplicativo de Lista de Tarefas",
+  "projects.todo.description": "Uma aplicação simples de gerenciamento de tarefas desenvolvida para praticar os fundamentos do JavaScript. Permite adicionar e remover tarefas dinamicamente."
 }
