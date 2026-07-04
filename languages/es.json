@@ -23,5 +23,10 @@
   "projects.tac.title": "Administrador de Tareas (TAC)",
   "projects.tac.description": "Un administrador de tareas desarrollado para la web con JavaScript. Permite agregar, eliminar y organizar tareas, utilizando localStorage para conservar los datos. Enfocado en la manipulación del DOM y la gestión del estado.",
   "projects.todo.title": "Aplicación de Lista de Tareas",
-  "projects.todo.description": "Una aplicación sencilla de gestión de tareas desarrollada para practicar los fundamentos de JavaScript. Permite agregar y eliminar tareas de forma dinámica."
+  "projects.todo.description": "Una aplicación sencilla de gestión de tareas desarrollada para practicar los fundamentos de JavaScript. Permite agregar y eliminar tareas de forma dinámica.",
+  "contact.phrase": "Aún no es perfecto<br /><span>pero siempre mejorando.</span>",
+  "contact.title": "Contacto",
+  "contact.email": "Correo - arthuroliveirasales60@gmail.com",
+  "contact.whatsapp": "WhatsApp - +55 7398812-8237",
+  "contact.instagram": "Instagram - Arthuroliveirasaless"
 }
